@@ -202,7 +202,6 @@ TRADING_FUNCTIONS_TEST_COMPLETE.md
 complete_backend.py
 direct_mpesa_test.py
 local_mpesa_test.py
-quick_test.py
 test_api.py
 test_corrected_api.py
 test_server.py
