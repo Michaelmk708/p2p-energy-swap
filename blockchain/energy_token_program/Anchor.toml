@@ -1,0 +1,12 @@
+[workspace]
+members = ["programs/energy_token_program"]
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+energy_token_program = "6WnjPtMbz6ogoJg2PgGnbnyEW4uEmPV6EqzLQ4BqouPo" # replace after step 4.1
+
+[scripts]
+test = "npx ts-mocha -p tsconfig.json -t 1000000 'tests/**/*.ts'"
