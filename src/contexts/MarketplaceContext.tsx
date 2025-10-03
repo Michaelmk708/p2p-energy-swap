@@ -17,7 +17,17 @@ interface MarketplaceContextType {
 const MarketplaceContext = createContext<MarketplaceContextType | undefined>(undefined);
 
 export function MarketplaceProvider({ children }: { children: ReactNode }) {
-  const [myListings, setMyListings] = useState<Listing[]>([]);
+  const [myListings, setMyListings] = useState<Listing[]>(() => {
+    const saved = localStorage.getItem("myListings");
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      return parsed.map((listing: any) => ({
+        ...listing,
+        createdAt: new Date(listing.createdAt),
+      }));
+    }
+    return [];
+  });
 
   const addListing = (tokens: number, pricePerToken: number) => {
     const newListing: Listing = {
@@ -27,11 +37,19 @@ export function MarketplaceProvider({ children }: { children: ReactNode }) {
       seller: "johndoe_solar",
       createdAt: new Date(),
     };
-    setMyListings((prev) => [newListing, ...prev]);
+    setMyListings((prev) => {
+      const updated = [newListing, ...prev];
+      localStorage.setItem("myListings", JSON.stringify(updated));
+      return updated;
+    });
   };
 
   const removeListing = (id: string) => {
-    setMyListings((prev) => prev.filter((listing) => listing.id !== id));
+    setMyListings((prev) => {
+      const updated = prev.filter((listing) => listing.id !== id);
+      localStorage.setItem("myListings", JSON.stringify(updated));
+      return updated;
+    });
   };
 
   return (
