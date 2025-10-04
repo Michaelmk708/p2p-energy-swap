@@ -131,8 +131,3 @@ Don't forget to update `DJANGO_ALLOWED_HOSTS` if needed for ngrok hostnames.
 
 ---
 
-If you want, I can also:
-- Add a small systemd/nix/docker-compose recipe to run everything under a single supervisor.
-- Add a one-command convenience Makefile target.
-
-Tell me which you'd prefer and I'll create it.
