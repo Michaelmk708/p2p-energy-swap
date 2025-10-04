@@ -11,6 +11,14 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 echo "root: $ROOT_DIR"
 
+# Load optional .env (NGROK_AUTHTOKEN, MPESA_*, etc.)
+if [ -f "$ROOT_DIR/.env" ]; then
+  echo "Loading env from $ROOT_DIR/.env"
+  set -a
+  . "$ROOT_DIR/.env"
+  set +a
+fi
+
 # Helper: safe pkill
 safe_kill() {
   pkill -f "$1" || true
@@ -73,10 +81,19 @@ fi
 pip install -r requirements.txt --quiet || true
 export DJANGO_ALLOWED_HOSTS=${DJANGO_ALLOWED_HOSTS:-"localhost,127.0.0.1,0.0.0.0"}
 export PAYMENT_CALLBACK_URL=${PAYMENT_CALLBACK_URL:-${PAYMENT_CALLBACK_URL:-}}
+export MPESA_CONSUMER_KEY=${MPESA_CONSUMER_KEY:-}
+export MPESA_CONSUMER_SECRET=${MPESA_CONSUMER_SECRET:-}
+export MPESA_BUSINESS_SHORTCODE=${MPESA_BUSINESS_SHORTCODE:-}
+export MPESA_PASSKEY=${MPESA_PASSKEY:-}
 echo "DJANGO_ALLOWED_HOSTS=$DJANGO_ALLOWED_HOSTS"
 echo "PAYMENT_CALLBACK_URL=${PAYMENT_CALLBACK_URL:-<not-set>}"
+echo "MPESA_CONSUMER_KEY=${MPESA_CONSUMER_KEY:+<set>}  MPESA_CONSUMER_SECRET=${MPESA_CONSUMER_SECRET:+<set>}"
+echo "MPESA_BUSINESS_SHORTCODE=${MPESA_BUSINESS_SHORTCODE:-<not-set>}  MPESA_PASSKEY=${MPESA_PASSKEY:+<set>}"
 PYTHONPATH=.venv/bin/python
-PAYMENT_CALLBACK_URL="$PAYMENT_CALLBACK_URL" DJANGO_ALLOWED_HOSTS="$DJANGO_ALLOWED_HOSTS" .venv/bin/python manage.py runserver 0.0.0.0:8000 --noreload &>/tmp/django.log &
+PAYMENT_CALLBACK_URL="$PAYMENT_CALLBACK_URL" DJANGO_ALLOWED_HOSTS="$DJANGO_ALLOWED_HOSTS" \
+MPESA_CONSUMER_KEY="$MPESA_CONSUMER_KEY" MPESA_CONSUMER_SECRET="$MPESA_CONSUMER_SECRET" \
+MPESA_BUSINESS_SHORTCODE="$MPESA_BUSINESS_SHORTCODE" MPESA_PASSKEY="$MPESA_PASSKEY" \
+.venv/bin/python manage.py runserver 0.0.0.0:8000 --noreload &>/tmp/django.log &
 echo "django pid:$! -> /tmp/django.log"
 
 echo "Starting frontend dev server"
