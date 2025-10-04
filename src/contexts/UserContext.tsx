@@ -16,16 +16,20 @@ interface UserContextType {
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
 export function UserProvider({ children }: { children: ReactNode }) {
-  const [profile, setProfile] = useState<UserProfile>({
-    firstName: "John",
-    lastName: "Doe",
-    email: "john.doe@example.com",
-    phone: "+254 712 345 678",
-    location: "Nairobi, Kenya",
+  const [profile, setProfile] = useState<UserProfile>(() => {
+    const saved = localStorage.getItem("userProfile");
+    return saved ? JSON.parse(saved) : {
+      firstName: "John",
+      lastName: "Doe",
+      email: "john.doe@example.com",
+      phone: "+254 712 345 678",
+      location: "Nairobi, Kenya",
+    };
   });
 
   const updateProfile = (newProfile: UserProfile) => {
     setProfile(newProfile);
+    localStorage.setItem("userProfile", JSON.stringify(newProfile));
   };
 
   return (
