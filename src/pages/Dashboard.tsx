@@ -1,22 +1,23 @@
+// src/pages/Dashboard.tsx
+import { useMemo } from "react";
 import { Layout } from "@/components/Layout";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Zap, 
-  TrendingUp, 
-  TrendingDown, 
-  Battery, 
-  Sun, 
+import {
+  Zap,
+  TrendingUp,
+  Battery,
+  Sun,
   Wind,
   ArrowUpRight,
   ArrowDownRight,
-  Sparkles
+  Sparkles,
 } from "lucide-react";
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis, CartesianGrid } from "recharts";
 import { useNavigate } from "react-router-dom";
+import { useUser } from "@/contexts/UserContext";
 
-// Dummy data
 const energyUsageData = [
   { time: "00:00", usage: 2.1, production: 0 },
   { time: "04:00", usage: 1.8, production: 0 },
@@ -28,19 +29,27 @@ const energyUsageData = [
 
 export default function Dashboard() {
   const navigate = useNavigate();
+  const { user, loading } = useUser();
+
+  const displayName = useMemo(() => {
+    if (!user) return "";
+    // Prefer backend-provided full name (`user.name`) if present, otherwise fallback
+    return (
+      user.name?.trim() || user.first_name?.trim() || user.username?.trim() || (user.email?.split("@")[0] ?? "")
+    );
+  }, [user]);
 
   return (
     <Layout>
       <div className="space-y-6 animate-fade-in pb-20 md:pb-6">
-        {/* Header */}
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Dashboard</h1>
+          <h1 className="text-3xl font-bold text-foreground">
+            {loading ? "Loading…" : displayName ? `Welcome back, ${displayName}! 👋` : "Dashboard"}
+          </h1>
           <p className="text-muted-foreground">Monitor your energy usage and trading activity</p>
         </div>
 
-        {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Token Balance */}
           <Card className="hover:shadow-lg transition-smooth">
             <CardHeader className="pb-2">
               <CardDescription className="flex items-center gap-2">
@@ -57,7 +66,6 @@ export default function Dashboard() {
             </CardContent>
           </Card>
 
-          {/* Energy Exported */}
           <Card className="hover:shadow-lg transition-smooth">
             <CardHeader className="pb-2">
               <CardDescription className="flex items-center gap-2">
@@ -74,7 +82,6 @@ export default function Dashboard() {
             </CardContent>
           </Card>
 
-          {/* Energy Consumed */}
           <Card className="hover:shadow-lg transition-smooth">
             <CardHeader className="pb-2">
               <CardDescription className="flex items-center gap-2">
@@ -91,11 +98,10 @@ export default function Dashboard() {
             </CardContent>
           </Card>
 
-          {/* Savings */}
           <Card className="hover:shadow-lg transition-smooth">
             <CardHeader className="pb-2">
               <CardDescription className="flex items-center gap-2">
-                <TrendingUp className="h-4 w-4 text-primary" />
+                <Sparkles className="h-4 w-4 text-primary" />
                 Total Savings
               </CardDescription>
             </CardHeader>
@@ -108,7 +114,6 @@ export default function Dashboard() {
           </Card>
         </div>
 
-        {/* Energy Usage Graph */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -121,45 +126,26 @@ export default function Dashboard() {
             <ResponsiveContainer width="100%" height={300}>
               <LineChart data={energyUsageData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                <XAxis 
-                  dataKey="time" 
+                <XAxis dataKey="time" stroke="hsl(var(--muted-foreground))" fontSize={12} />
+                <YAxis
                   stroke="hsl(var(--muted-foreground))"
                   fontSize={12}
+                  label={{ value: "kWh", angle: -90, position: "insideLeft" }}
                 />
-                <YAxis 
-                  stroke="hsl(var(--muted-foreground))"
-                  fontSize={12}
-                  label={{ value: 'kWh', angle: -90, position: 'insideLeft' }}
-                />
-                <Tooltip 
-                  contentStyle={{ 
-                    backgroundColor: 'hsl(var(--card))',
-                    border: '1px solid hsl(var(--border))',
-                    borderRadius: '8px'
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: "hsl(var(--card))",
+                    border: "1px solid hsl(var(--border))",
+                    borderRadius: "8px",
                   }}
                 />
-                <Line 
-                  type="monotone" 
-                  dataKey="production" 
-                  stroke="hsl(142 76% 36%)" 
-                  strokeWidth={3}
-                  name="Production"
-                  dot={{ fill: 'hsl(142 76% 36%)', r: 4 }}
-                />
-                <Line 
-                  type="monotone" 
-                  dataKey="usage" 
-                  stroke="hsl(180 75% 45%)" 
-                  strokeWidth={3}
-                  name="Consumption"
-                  dot={{ fill: 'hsl(180 75% 45%)', r: 4 }}
-                />
+                <Line type="monotone" dataKey="production" stroke="hsl(142 76% 36%)" strokeWidth={3} name="Production" dot={{ fill: "hsl(142 76% 36%)", r: 4 }} />
+                <Line type="monotone" dataKey="usage" stroke="hsl(180 75% 45%)" strokeWidth={3} name="Consumption" dot={{ fill: "hsl(180 75% 45%)", r: 4 }} />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
         </Card>
 
-        {/* AI Predictions */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
             <CardHeader>
@@ -181,7 +167,6 @@ export default function Dashboard() {
                   Sunny weather expected
                 </p>
               </div>
-
               <div>
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-sm text-muted-foreground">Expected Consumption</span>
@@ -190,57 +175,45 @@ export default function Dashboard() {
                 <div className="text-2xl font-bold text-foreground">85 kWh</div>
                 <p className="text-sm text-muted-foreground">Similar to today</p>
               </div>
-
               <div className="pt-4 border-t border-border">
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium text-foreground">Estimated Surplus</span>
                   <span className="text-xl font-bold text-primary">83 kWh</span>
                 </div>
-                <p className="text-xs text-muted-foreground mt-1">
-                  Consider listing tokens for sale
-                </p>
+                <p className="text-xs text-muted-foreground mt-1">Consider listing tokens for sale</p>
               </div>
             </CardContent>
           </Card>
 
-          {/* Quick Actions */}
-          <Card>
-            <CardHeader>
-              <CardTitle>Quick Actions</CardTitle>
-              <CardDescription>Manage your energy trading</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              <Button 
-                variant="energy" 
-                className="w-full justify-start" 
-                size="lg"
-                onClick={() => navigate("/marketplace?tab=my-listings")}
-              >
-                <Zap className="mr-2 h-5 w-5" />
-                List Tokens for Sale
-              </Button>
-              <Button 
-                variant="eco" 
-                className="w-full justify-start" 
-                size="lg"
-                onClick={() => navigate("/marketplace?tab=buy")}
-              >
-                <Sun className="mr-2 h-5 w-5" />
-                Buy Energy Tokens
-              </Button>
-              <Button 
-                variant="outline" 
-                className="w-full justify-start" 
-                size="lg"
-                onClick={() => navigate("/marketplace")}
-              >
-                <Wind className="mr-2 h-5 w-5" />
-                View Market Trends
-              </Button>
-            </CardContent>
-          </Card>
+          <QuickActions />
         </div>
       </div>
     </Layout>
+  );
+}
+
+function QuickActions() {
+  const navigate = useNavigate();
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Quick Actions</CardTitle>
+        <CardDescription>Manage your energy trading</CardDescription>
+      </CardHeader>
+      <CardContent className="space-y-3">
+        <Button variant="energy" className="w-full justify-start" size="lg" onClick={() => navigate("/marketplace?tab=my-listings")}>
+          <Zap className="mr-2 h-5 w-5" />
+          List Tokens for Sale
+        </Button>
+        <Button variant="eco" className="w-full justify-start" size="lg" onClick={() => navigate("/marketplace?tab=buy")}>
+          <Sun className="mr-2 h-5 w-5" />
+          Buy Energy Tokens
+        </Button>
+        <Button variant="outline" className="w-full justify-start" size="lg" onClick={() => navigate("/marketplace")}>
+          <Wind className="mr-2 h-5 w-5" />
+          View Market Trends
+        </Button>
+      </CardContent>
+    </Card>
   );
 }
