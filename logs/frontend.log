@@ -1,0 +1,386 @@
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite --host 0.0.0.0 --port 8082
+
+
+  VITE v5.4.20  ready in 873 ms
+
+  ➜  Local:   http://localhost:8082/
+  ➜  Network: http://192.168.0.111:8082/
+  ➜  press h + enter to show help
+6:10:44 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:13:58 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:14:07 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:14:07 PM [vite] Internal server error: Failed to resolve import "react-hot-toast" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Dashboard.tsx:3:22
+  22 |  var _s = $RefreshSig$(), _s1 = $RefreshSig$(), _s2 = $RefreshSig$();
+  23 |  import { useMemo, useEffect, useState } from "react";
+  24 |  import { toast } from "react-hot-toast";
+     |                         ^
+  25 |  import { Layout } from "@/components/Layout";
+  26 |  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+      at TransformPluginContext._formatError (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at async file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+6:14:18 PM [vite] hmr update /src/App.tsx, /src/index.css
+6:14:19 PM [vite] Internal server error: Failed to resolve import "react-hot-toast" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Dashboard.tsx:3:22
+  22 |  var _s = $RefreshSig$(), _s1 = $RefreshSig$(), _s2 = $RefreshSig$();
+  23 |  import { useMemo, useEffect, useState } from "react";
+  24 |  import { toast } from "react-hot-toast";
+     |                         ^
+  25 |  import { Layout } from "@/components/Layout";
+  26 |  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+      at TransformPluginContext._formatError (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at async file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+6:14:19 PM [vite] Pre-transform error: Failed to resolve import "react-hot-toast" from "src/pages/Dashboard.tsx". Does the file exist?
+6:14:19 PM [vite] page reload src/components/Toast.tsx
+6:14:20 PM [vite] Internal server error: Failed to resolve import "react-hot-toast" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Dashboard.tsx:3:22
+  22 |  var _s = $RefreshSig$(), _s1 = $RefreshSig$(), _s2 = $RefreshSig$();
+  23 |  import { useMemo, useEffect, useState } from "react";
+  24 |  import { toast } from "react-hot-toast";
+     |                         ^
+  25 |  import { Layout } from "@/components/Layout";
+  26 |  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+      at TransformPluginContext._formatError (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at async file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/michael/Desktop/p2p/p2p-energy-swap/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+6:14:25 PM [vite] hmr update /src/App.tsx, /src/index.css
+6:14:38 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Identifier 'Marketplace' has already been declared. (77:24)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1647:19)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1613:12)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4913:11)
+    at TypeScriptParserMixin.registerFunctionStatementId (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:13475:16)
+    at TypeScriptParserMixin.registerFunctionStatementId (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:9258:13)
+    at TypeScriptParserMixin.parseFunction (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:13459:12)
+    at TypeScriptParserMixin.parseExportDefaultExpression (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:13916:19)
+    at TypeScriptParserMixin.parseExportDefaultExpression (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:9492:18) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'VarRedeclaration',
+  loc: Position { line: 77, column: 24, index: 3134 },
+  pos: 3134,
+  syntaxPlugin: undefined
+}
+6:14:48 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:17:29 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Unexpected token, expected "}" (266:6)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptParserMixin.unexpected (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6650:16)
+    at TypeScriptParserMixin.expect (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6930:12)
+    at TypeScriptParserMixin.jsxParseExpressionContainer (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4670:10)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4744:36)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4731:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4731:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4731:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4731:32) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'UnexpectedToken',
+  loc: Position { line: 266, column: 6, index: 11912 },
+  pos: 11912,
+  syntaxPlugin: undefined
+}
+6:17:29 PM [vite] Internal server error:   x Expected '</', got ':'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:266:1]
+ 263 | 
+ 264 | // Dummy marketplace data
+ 265 | const marketListings = [
+ 266 |   { id: 1, seller: "SolarFarm_42", tokens: 50, pricePerToken: 12, rating: 4.8 },
+     :       ^
+ 267 |   { id: 2, seller: "GreenHome_89", tokens: 25, pricePerToken: 11.5, rating: 4.9 },
+ 268 |   { id: 3, seller: "EcoVilla_23", tokens: 100, pricePerToken: 13, rating: 4.7 },
+ 269 |   { id: 4, seller: "SunnyRoof_15", tokens: 75, pricePerToken: 12.5, rating: 4.6 },
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:18:28 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Unexpected token (255:2)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptParserMixin.unexpected (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6650:16)
+    at TypeScriptParserMixin.parseExprAtom (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11451:16)
+    at TypeScriptParserMixin.parseExprAtom (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4797:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11085:23)
+    at TypeScriptParserMixin.parseUpdate (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11070:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11050:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:9857:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:10903:61) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'UnexpectedToken',
+  loc: Position { line: 255, column: 2, index: 11191 },
+  pos: 11191,
+  syntaxPlugin: undefined
+}
+6:18:28 PM [vite] Internal server error:   x Expected '</', got 'const'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:255:1]
+ 252 | import { Button } from '@/components/ui/button';
+ 253 | 
+ 254 | export default function Marketplace() {
+ 255 |   const [listings, setListings] = useState<any[]>([]);
+     :   ^^^^^
+ 256 |   const [loading, setLoading] = useState(false);
+ 257 | 
+ 258 |   useEffect(() => {
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:19:15 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Unexpected token (307:2)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptParserMixin.unexpected (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6650:16)
+    at TypeScriptParserMixin.parseExprAtom (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11451:16)
+    at TypeScriptParserMixin.parseExprAtom (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4797:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11085:23)
+    at TypeScriptParserMixin.parseUpdate (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11070:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11050:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:9857:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:10903:61) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'UnexpectedToken',
+  loc: Position { line: 307, column: 2, index: 12954 },
+  pos: 12954,
+  syntaxPlugin: undefined
+}
+6:19:15 PM [vite] Internal server error:   x Expected '</', got 'const'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:307:1]
+ 304 | import { Button } from '@/components/ui/button';
+ 305 | 
+ 306 | export default function Marketplace() {
+ 307 |   const [listings, setListings] = useState<any[]>([]);
+     :   ^^^^^
+ 308 |   const [loading, setLoading] = useState(false);
+ 309 | 
+ 310 |   useEffect(() => {
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:21:00 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Unexpected token (311:2)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptParserMixin.unexpected (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6650:16)
+    at TypeScriptParserMixin.parseExprAtom (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11451:16)
+    at TypeScriptParserMixin.parseExprAtom (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4797:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11085:23)
+    at TypeScriptParserMixin.parseUpdate (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11070:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:11050:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:9857:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:10903:61) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'UnexpectedToken',
+  loc: Position { line: 311, column: 2, index: 13039 },
+  pos: 13039,
+  syntaxPlugin: undefined
+}
+6:21:00 PM [vite] Internal server error:   x Expected '</', got 'const'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:311:1]
+ 308 | import { Button } from '@/components/ui/button';
+ 309 | 
+ 310 | export default function Marketplace() {
+ 311 |   const [listings, setListings] = useState<any[]>([]);
+     :   ^^^^^
+ 312 |   const [loading, setLoading] = useState(false);
+ 313 | 
+ 314 |   useEffect(() => {
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:22:58 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Identifier 'React' has already been declared. (56:7)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1647:19)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1613:12)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4913:11)
+    at TypeScriptParserMixin.declareNameFromIdentifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7594:16)
+    at TypeScriptParserMixin.checkIdentifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7590:12)
+    at TypeScriptParserMixin.checkLVal (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7529:12)
+    at TypeScriptParserMixin.finishImportSpecifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:14275:10)
+    at TypeScriptParserMixin.parseImportSpecifierLocal (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:14272:31) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'VarRedeclaration',
+  loc: Position { line: 56, column: 7, index: 1818 },
+  pos: 1818,
+  syntaxPlugin: undefined
+}
+6:22:58 PM [vite] Internal server error:   x Expected '</', got 'const'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:366:1]
+ 363 | import { Button } from '@/components/ui/button';
+ 364 | 
+ 365 | export default function Marketplace() {
+ 366 |   const [listings, setListings] = useState<any[]>([]);
+     :   ^^^^^
+ 367 |   const [loading, setLoading] = useState(false);
+ 368 | 
+ 369 |   useEffect(() => {
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:24:32 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Identifier 'React' has already been declared. (55:7)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1647:19)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1613:12)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4913:11)
+    at TypeScriptParserMixin.declareNameFromIdentifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7594:16)
+    at TypeScriptParserMixin.checkIdentifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7590:12)
+    at TypeScriptParserMixin.checkLVal (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7529:12)
+    at TypeScriptParserMixin.finishImportSpecifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:14275:10)
+    at TypeScriptParserMixin.parseImportSpecifierLocal (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:14272:31) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'VarRedeclaration',
+  loc: Position { line: 55, column: 7, index: 1799 },
+  pos: 1799,
+  syntaxPlugin: undefined
+}
+6:24:32 PM [vite] Internal server error:   x Expected '</', got 'const'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:365:1]
+ 362 | import { Button } from '@/components/ui/button';
+ 363 | 
+ 364 | export default function Marketplace() {
+ 365 |   const [listings, setListings] = useState<any[]>([]);
+     :   ^^^^^
+ 366 |   const [loading, setLoading] = useState(false);
+ 367 | 
+ 368 |   useEffect(() => {
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:24:55 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: Identifier 'React' has already been declared. (56:7)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1647:19)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:1613:12)
+    at TypeScriptScopeHandler.declareName (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:4913:11)
+    at TypeScriptParserMixin.declareNameFromIdentifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7594:16)
+    at TypeScriptParserMixin.checkIdentifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7590:12)
+    at TypeScriptParserMixin.checkLVal (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:7529:12)
+    at TypeScriptParserMixin.finishImportSpecifier (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:14275:10)
+    at TypeScriptParserMixin.parseImportSpecifierLocal (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:14272:31) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'VarRedeclaration',
+  loc: Position { line: 56, column: 7, index: 1824 },
+  pos: 1824,
+  syntaxPlugin: undefined
+}
+6:24:55 PM [vite] Internal server error:   x Expected '</', got 'const'
+     ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:366:1]
+ 363 | import { Button } from '@/components/ui/button';
+ 364 | 
+ 365 | export default function Marketplace() {
+ 366 |   const [listings, setListings] = useState<any[]>([]);
+     :   ^^^^^
+ 367 |   const [loading, setLoading] = useState(false);
+ 368 | 
+ 369 |   useEffect(() => {
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:28:39 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+Error processing file src/pages/Marketplace.tsx: SyntaxError: 'import' and 'export' may only appear at the top level. (11:4)
+    at constructor (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptParserMixin.parseStatementContent (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:12880:18)
+    at TypeScriptParserMixin.parseStatementContent (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:9532:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:12776:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:12756:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:13325:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:13318:10)
+    at TypeScriptParserMixin.parseBlock (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:13306:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/michael/Desktop/p2p/p2p-energy-swap/node_modules/@babel/parser/lib/index.js:12110:24) {
+  code: 'BABEL_PARSER_SYNTAX_ERROR',
+  reasonCode: 'UnexpectedImportExport',
+  loc: Position { line: 11, column: 4, index: 346 },
+  pos: 346,
+  syntaxPlugin: undefined
+}
+6:28:39 PM [vite] Internal server error:   x 'import', and 'export' cannot be used outside of module code
+    ,-[/home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx:11:1]
+  8 |   const [loading, setLoading] = useState(false);
+  9 | 
+ 10 |   useEffect(() => {
+ 11 |     import React, { useEffect, useState } from 'react';
+    :     ^^^^^^
+ 12 |     import { Layout } from '@/components/Layout';
+ 13 |     import api from '@/lib/api';
+ 14 |     import { Button } from '@/components/ui/button';
+    `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/michael/Desktop/p2p/p2p-energy-swap/src/pages/Marketplace.tsx
+  
+6:29:56 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:35:30 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:35:39 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:44:50 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:45:34 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:45:43 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:50:53 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:51:01 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+7:03:54 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css

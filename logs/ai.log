@@ -1,0 +1,158 @@
+Gemini API not available - using backup model only
+2025-10-04 18:02:38,041 - INFO - Loaded IoT devices config from /home/michael/Desktop/p2p/p2p-energy-swap-Ai/config/iot_devices.json
+2025-10-04 18:02:38,044 - INFO - M-Pesa credentials not configured, using mock integration
+2025-10-04 18:02:38,055 - INFO - Starting Enhanced AI Energy Trading System v2.0...
+2025-10-04 18:02:38,055 - INFO - Testing database connection...
+2025-10-04 18:02:38,065 - INFO - Testing weather API...
+2025-10-04 18:02:38,905 - INFO - Retrieved real weather data: 19.3°C, 100% clouds, UV: 0.8
+2025-10-04 18:02:38,909 - INFO - Initializing Gemini AI advisor...
+2025-10-04 18:02:38,910 - INFO - Using backup ML model (Gemini unavailable)
+2025-10-04 18:02:38,910 - INFO - Testing IoT network...
+2025-10-04 18:02:38,911 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:02:38,911 - INFO - IoT network ready (5 households)
+2025-10-04 18:02:38,912 - INFO - System initialization complete!
+2025-10-04 18:02:38,912 - INFO - API server ready at http://localhost:5000
+2025-10-04 18:02:38,912 - INFO - Enhanced analytics and Gemini AI available
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+python-dotenv not installed, using system environment variables
+ * Serving Flask app 'main_app'
+ * Debug mode: off
+2025-10-04 18:02:38,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.111:5000
+2025-10-04 18:02:38,918 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 18:03:41,826 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:03:41,850 - INFO - 127.0.0.1 - - [04/Oct/2025 18:03:41] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:03:42,060 - INFO - Blockchain trade executed: {'id': 1, 'type': 'SELL', 'amount': 1.5, 'price': 0.12, 'total_value': 0.18, 'timestamp': '2025-10-04T18:03:41.960056', 'status': 'confirmed', 'tx_hash': 'SOL_1_1759590221', 'wallet_balance': 100.18}
+2025-10-04 18:03:42,061 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_1', 'phone': '+254700000000', 'amount': 0.18, 'trade_id': 1, 'timestamp': '2025-10-04T18:03:42.061035', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:03:42,069 - INFO - 127.0.0.1 - - [04/Oct/2025 18:03:42] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:04:26,350 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:04:26,381 - INFO - 127.0.0.1 - - [04/Oct/2025 18:04:26] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:04:26,499 - INFO - Blockchain trade executed: {'id': 2, 'type': 'SELL', 'amount': 1.5, 'price': 0.12, 'total_value': 0.18, 'timestamp': '2025-10-04T18:04:26.398952', 'status': 'confirmed', 'tx_hash': 'SOL_2_1759590266', 'wallet_balance': 100.36}
+2025-10-04 18:04:26,499 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_2', 'phone': '+254700000000', 'amount': 0.18, 'trade_id': 2, 'timestamp': '2025-10-04T18:04:26.499863', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:04:26,507 - INFO - 127.0.0.1 - - [04/Oct/2025 18:04:26] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:10:45,635 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:10:45,658 - INFO - 127.0.0.1 - - [04/Oct/2025 18:10:45] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:10:45,677 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:10:45,706 - INFO - 127.0.0.1 - - [04/Oct/2025 18:10:45] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:11:59,421 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:11:59,442 - INFO - 127.0.0.1 - - [04/Oct/2025 18:11:59] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:12:04,890 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:12:04,900 - INFO - 127.0.0.1 - - [04/Oct/2025 18:12:04] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:12:13,403 - INFO - Blockchain trade executed: {'id': 3, 'type': 'SELL', 'amount': 2.5, 'price': 0.15, 'total_value': 0.375, 'timestamp': '2025-10-04T18:12:13.303181', 'status': 'confirmed', 'tx_hash': 'SOL_3_1759590733', 'wallet_balance': 100.74}
+2025-10-04 18:12:13,404 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_3', 'phone': '+254700000000', 'amount': 0.38, 'trade_id': 3, 'timestamp': '2025-10-04T18:12:13.403936', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:12:13,507 - INFO - 127.0.0.1 - - [04/Oct/2025 18:12:13] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:13:59,748 - INFO - Retrieved real weather data: 19.3°C, 100% clouds, UV: 0.8
+2025-10-04 18:13:59,766 - INFO - 127.0.0.1 - - [04/Oct/2025 18:13:59] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:14:27,218 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:14:27,240 - INFO - 127.0.0.1 - - [04/Oct/2025 18:14:27] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:14:27,253 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:14:27,278 - INFO - 127.0.0.1 - - [04/Oct/2025 18:14:27] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:14:49,241 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:14:49,260 - INFO - 127.0.0.1 - - [04/Oct/2025 18:14:49] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:39:10,753 - INFO - 127.0.0.1 - - [04/Oct/2025 18:39:10] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:39:59,725 - INFO - Blockchain trade executed: {'id': 4, 'type': 'SELL', 'amount': 1.0, 'price': 0.12, 'total_value': 0.12, 'timestamp': '2025-10-04T18:39:59.625641', 'status': 'confirmed', 'tx_hash': 'SOL_4_1759592399', 'wallet_balance': 100.86}
+2025-10-04 18:39:59,726 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_4', 'phone': '+254700000000', 'amount': 0.12, 'trade_id': 4, 'timestamp': '2025-10-04T18:39:59.726484', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:39:59,733 - INFO - 127.0.0.1 - - [04/Oct/2025 18:39:59] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:40:06,488 - INFO - Retrieved real weather data: 18.6°C, 100% clouds, UV: 0.25
+2025-10-04 18:40:06,531 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:06] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:40:06,539 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:40:06,559 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:06] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:40:12,382 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:12] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:40:12,443 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:12] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:40:16,753 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:16] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:40:41,442 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:41] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:40:41,454 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:41] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:40:47,934 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:40:48,006 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:48] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:40:48,022 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:40:48,041 - INFO - 127.0.0.1 - - [04/Oct/2025 18:40:48] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:41:01,163 - INFO - Blockchain trade executed: {'id': 5, 'type': 'SELL', 'amount': 1.0, 'price': 0.12, 'total_value': 0.12, 'timestamp': '2025-10-04T18:41:01.062927', 'status': 'confirmed', 'tx_hash': 'SOL_5_1759592461', 'wallet_balance': 100.98}
+2025-10-04 18:41:01,164 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_5', 'phone': '+254700000000', 'amount': 0.12, 'trade_id': 5, 'timestamp': '2025-10-04T18:41:01.163904', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:41:01,172 - INFO - 127.0.0.1 - - [04/Oct/2025 18:41:01] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:45:35,243 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:45:35,272 - INFO - 127.0.0.1 - - [04/Oct/2025 18:45:35] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:45:35,289 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:45:35,314 - INFO - 127.0.0.1 - - [04/Oct/2025 18:45:35] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:45:43,412 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:45:43,431 - INFO - 127.0.0.1 - - [04/Oct/2025 18:45:43] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:05,600 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:05] "[31m[1mPOST /api/execute_trade HTTP/1.1[0m" 400 -
+2025-10-04 18:48:15,824 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:15] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:15,845 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:15] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:27,042 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:27] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:27,065 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:27] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:35,878 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:48:35,895 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:35] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:35,908 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:48:35,924 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:35] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:42,129 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:42] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:42,152 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:42] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:44,770 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:48:44,794 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:44] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:44,817 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:48:44,840 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:44] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:47,606 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:47] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:47,625 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:47] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:48:54,659 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:48:54,680 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:54] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:54,693 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:48:54,713 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:54] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:48:56,813 - INFO - 127.0.0.1 - - [04/Oct/2025 18:48:56] "[31m[1mPOST /api/execute_trade HTTP/1.1[0m" 400 -
+2025-10-04 18:50:54,906 - INFO - Retrieved real weather data: 18.3°C, 100% clouds, UV: 0.1
+2025-10-04 18:50:54,947 - INFO - 127.0.0.1 - - [04/Oct/2025 18:50:54] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:51:33,340 - INFO - 127.0.0.1 - - [04/Oct/2025 18:51:33] "[31m[1mPOST /api/execute_trade HTTP/1.1[0m" 400 -
+2025-10-04 18:51:53,749 - INFO - 127.0.0.1 - - [04/Oct/2025 18:51:53] "[31m[1mPOST /api/execute_trade HTTP/1.1[0m" 400 -
+2025-10-04 18:51:59,759 - INFO - 127.0.0.1 - - [04/Oct/2025 18:51:59] "[31m[1mPOST /api/execute_trade HTTP/1.1[0m" 400 -
+2025-10-04 18:53:54,075 - INFO - Blockchain trade executed: {'id': 6, 'type': 'SELL', 'amount': 1.0, 'price': 0.01, 'total_value': 0.01, 'timestamp': '2025-10-04T18:53:53.975527', 'status': 'confirmed', 'tx_hash': 'SOL_6_1759593233', 'wallet_balance': 100.99}
+2025-10-04 18:53:54,077 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_6', 'phone': '+254700000000', 'amount': 0.01, 'trade_id': 6, 'timestamp': '2025-10-04T18:53:54.076922', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:53:54,086 - INFO - 127.0.0.1 - - [04/Oct/2025 18:53:54] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:54:27,386 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:54:27,399 - INFO - 127.0.0.1 - - [04/Oct/2025 18:54:27] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:54:27,456 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:54:27,472 - INFO - 127.0.0.1 - - [04/Oct/2025 18:54:27] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:54:29,066 - INFO - Blockchain trade executed: {'id': 7, 'type': 'SELL', 'amount': 1.0, 'price': 0.01, 'total_value': 0.01, 'timestamp': '2025-10-04T18:54:28.965678', 'status': 'confirmed', 'tx_hash': 'SOL_7_1759593268', 'wallet_balance': 101.0}
+2025-10-04 18:54:29,066 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_7', 'phone': '+254700000000', 'amount': 0.01, 'trade_id': 7, 'timestamp': '2025-10-04T18:54:29.066574', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:54:29,077 - INFO - 127.0.0.1 - - [04/Oct/2025 18:54:29] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:54:40,038 - INFO - 127.0.0.1 - - [04/Oct/2025 18:54:40] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:54:40,047 - INFO - 127.0.0.1 - - [04/Oct/2025 18:54:40] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:54:44,568 - INFO - 127.0.0.1 - - [04/Oct/2025 18:54:44] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:55:36,198 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:55:36,216 - INFO - 127.0.0.1 - - [04/Oct/2025 18:55:36] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:55:36,223 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:55:36,235 - INFO - 127.0.0.1 - - [04/Oct/2025 18:55:36] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 18:55:37,960 - INFO - Blockchain trade executed: {'id': 8, 'type': 'SELL', 'amount': 1.0, 'price': 0.01, 'total_value': 0.01, 'timestamp': '2025-10-04T18:55:37.860084', 'status': 'confirmed', 'tx_hash': 'SOL_8_1759593337', 'wallet_balance': 101.01}
+2025-10-04 18:55:37,960 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_8', 'phone': '+254700000000', 'amount': 0.01, 'trade_id': 8, 'timestamp': '2025-10-04T18:55:37.960662', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 18:55:37,967 - INFO - 127.0.0.1 - - [04/Oct/2025 18:55:37] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 18:57:15,123 - INFO - 127.0.0.1 - - [04/Oct/2025 18:57:15] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:57:15,132 - INFO - 127.0.0.1 - - [04/Oct/2025 18:57:15] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 18:58:52,221 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 18:58:52,243 - INFO - 127.0.0.1 - - [04/Oct/2025 18:58:52] "GET /api/predict?household=HH_UI_001 HTTP/1.1" 200 -
+2025-10-04 19:01:21,979 - INFO - Retrieved real weather data: 18.0°C, 100% clouds, UV: 0
+2025-10-04 19:01:21,995 - INFO - 127.0.0.1 - - [04/Oct/2025 19:01:21] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:01:22,002 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:01:22,014 - INFO - 127.0.0.1 - - [04/Oct/2025 19:01:22] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:01:23,919 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:01:23,936 - INFO - 127.0.0.1 - - [04/Oct/2025 19:01:23] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:01:23,992 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:01:24,006 - INFO - 127.0.0.1 - - [04/Oct/2025 19:01:24] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:01:25,361 - INFO - Blockchain trade executed: {'id': 9, 'type': 'SELL', 'amount': 1.0, 'price': 0.01, 'total_value': 0.01, 'timestamp': '2025-10-04T19:01:25.260886', 'status': 'confirmed', 'tx_hash': 'SOL_9_1759593685', 'wallet_balance': 101.02}
+2025-10-04 19:01:25,361 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_9', 'phone': '+254700000000', 'amount': 0.01, 'trade_id': 9, 'timestamp': '2025-10-04T19:01:25.361450', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 19:01:25,366 - INFO - 127.0.0.1 - - [04/Oct/2025 19:01:25] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 19:03:55,582 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:03:55,613 - INFO - 127.0.0.1 - - [04/Oct/2025 19:03:55] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:16:26,276 - INFO - Retrieved real weather data: 17.8°C, 100% clouds, UV: 0
+2025-10-04 19:16:26,311 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:26] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:16:26,323 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:16:26,354 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:26] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:16:27,027 - INFO - Blockchain trade executed: {'id': 10, 'type': 'SELL', 'amount': 1.0, 'price': 0.01, 'total_value': 0.01, 'timestamp': '2025-10-04T19:16:26.926844', 'status': 'confirmed', 'tx_hash': 'SOL_10_1759594586', 'wallet_balance': 101.03}
+2025-10-04 19:16:27,027 - INFO - Mock M-Pesa payment processed: {'tx_id': 'DEMO_MPESA_10', 'phone': '+254700000000', 'amount': 0.01, 'trade_id': 10, 'timestamp': '2025-10-04T19:16:27.027763', 'status': 'completed', 'currency': 'KES', 'payment_method': 'mpesa_mock'}
+2025-10-04 19:16:27,041 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:27] "POST /api/execute_trade HTTP/1.1" 200 -
+2025-10-04 19:16:32,147 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:32] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 19:16:32,173 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:32] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 19:16:38,685 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:16:38,722 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:38] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:16:38,732 - INFO - Using cached weather data for coordinates (-1.2921, 36.8219)
+2025-10-04 19:16:38,756 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:38] "GET /api/predict HTTP/1.1" 200 -
+2025-10-04 19:16:41,344 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:41] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
+2025-10-04 19:16:41,353 - INFO - 127.0.0.1 - - [04/Oct/2025 19:16:41] "[33mGET /api/marketplace HTTP/1.1[0m" 404 -
