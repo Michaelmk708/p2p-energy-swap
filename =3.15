@@ -1,0 +1,40 @@
+Collecting Django<6,>=5
+  Using cached django-5.2.7-py3-none-any.whl.metadata (4.1 kB)
+Collecting djangorestframework
+  Using cached djangorestframework-3.16.1-py3-none-any.whl.metadata (11 kB)
+Collecting djangorestframework-simplejwt
+  Using cached djangorestframework_simplejwt-5.5.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting django-cors-headers
+  Downloading django_cors_headers-4.9.0-py3-none-any.whl.metadata (16 kB)
+Collecting pillow
+  Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting python-dotenv
+  Downloading python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)
+Collecting psycopg>=3.1 (from psycopg[binary]>=3.1)
+  Downloading psycopg-3.2.10-py3-none-any.whl.metadata (4.6 kB)
+Collecting asgiref>=3.8.1 (from Django<6,>=5)
+  Downloading asgiref-3.9.2-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from Django<6,>=5)
+  Downloading sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting pyjwt>=1.7.1 (from djangorestframework-simplejwt)
+  Downloading PyJWT-2.10.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting psycopg-binary==3.2.10 (from psycopg[binary]>=3.1)
+  Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.0 kB)
+Downloading django-5.2.7-py3-none-any.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 3.4 MB/s  0:00:02
+Downloading djangorestframework-3.16.1-py3-none-any.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 2.8 MB/s  0:00:00
+Downloading djangorestframework_simplejwt-5.5.1-py3-none-any.whl (107 kB)
+Downloading django_cors_headers-4.9.0-py3-none-any.whl (12 kB)
+Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+   ━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 1.6 MB/s  0:00:04
+Downloading python_dotenv-1.1.1-py3-none-any.whl (20 kB)
+Downloading psycopg-3.2.10-py3-none-any.whl (206 kB)
+Downloading asgiref-3.9.2-py3-none-any.whl (23 kB)
+Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+   ━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 1.6 MB/s  0:00:02
+Downloading PyJWT-2.10.1-py3-none-any.whl (22 kB)
+Downloading sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Installing collected packages: sqlparse, python-dotenv, pyjwt, psycopg-binary, psycopg, pillow, asgiref, Django, djangorestframework, django-cors-headers, djangorestframework-simplejwt
+
+Successfully installed Django-5.2.7 asgiref-3.9.2 django-cors-headers-4.9.0 djangorestframework-3.16.1 djangorestframework-simplejwt-5.5.1 pillow-11.3.0 psycopg-3.2.10 psycopg-binary-3.2.10 pyjwt-2.10.1 python-dotenv-1.1.1 sqlparse-0.5.3
