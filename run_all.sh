@@ -43,7 +43,8 @@ if [ -n "${NGROK_AUTHTOKEN:-}" ]; then
   NGROK_PID=$!
   # wait briefly and attempt to capture url from log
   sleep 1
-  NGROK_URL=$(grep -Eo "https://[0-9a-zA-Z._-]+\.ngrok\.[a-z]+" /tmp/ngrok.log | head -1 || true)
+  # Try to extract public URL from ngrok logs; support ngrok and ngrok-free domains
+  NGROK_URL=$(grep -Eo "https://[0-9a-zA-Z._-]+\.(ngrok|ngrok-free)\.[a-z.]+" /tmp/ngrok.log | head -1 || true)
   if [ -n "$NGROK_URL" ]; then
     echo "ngrok url: $NGROK_URL"
     export PAYMENT_CALLBACK_URL="$NGROK_URL/api/mpesa/callback/"
@@ -78,8 +79,13 @@ if [ ! -d .venv ]; then
   python3 -m venv .venv || true
 fi
 . .venv/bin/activate
-pip install -r requirements.txt --quiet || true
-export DJANGO_ALLOWED_HOSTS=${DJANGO_ALLOWED_HOSTS:-"localhost,127.0.0.1,0.0.0.0"}
+# Install deps: prefer requirements.txt, otherwise fall back to editable install via pyproject.toml
+if [ -f requirements.txt ]; then
+  pip install -q -r requirements.txt || true
+else
+  pip install -q -e . || true
+fi
+export DJANGO_ALLOWED_HOSTS=${DJANGO_ALLOWED_HOSTS:-"*"}
 export PAYMENT_CALLBACK_URL=${PAYMENT_CALLBACK_URL:-${PAYMENT_CALLBACK_URL:-}}
 export MPESA_CONSUMER_KEY=${MPESA_CONSUMER_KEY:-}
 export MPESA_CONSUMER_SECRET=${MPESA_CONSUMER_SECRET:-}
