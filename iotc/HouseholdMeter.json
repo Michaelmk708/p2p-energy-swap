@@ -1,0 +1,58 @@
+[
+  {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:org:wattchain:HouseholdMeter;1",
+    "@type": "Interface",
+    "displayName": "HouseholdMeter",
+    "contents": [
+  { "@type": "Component", "name": "pv_array", "schema": "dtmi:org:wattchain:PVArray;1" },
+  { "@type": "Component", "name": "house_load", "schema": "dtmi:org:wattchain:HouseLoad;1" },
+  { "@type": "Component", "name": "grid_export", "schema": "dtmi:org:wattchain:GridExport;1" }
+    ]
+  },
+  {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:org:wattchain:PVArray;1",
+    "@type": "Interface",
+    "displayName": "PV Array",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "power",
+        "displayName": "PV Power",
+        "schema": "double",
+        "description": "Instantaneous PV power (kW)"
+      }
+    ]
+  },
+  {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:org:wattchain:HouseLoad;1",
+    "@type": "Interface",
+    "displayName": "House Load",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "power",
+        "displayName": "Load Power",
+        "schema": "double",
+        "description": "Instantaneous load power (kW)"
+      }
+    ]
+  },
+  {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:org:wattchain:GridExport;1",
+    "@type": "Interface",
+    "displayName": "Grid Export",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "energy_kwh_total",
+        "displayName": "Export energy total",
+        "schema": "double",
+        "description": "Cumulative exported energy (kWh)"
+      }
+    ]
+  }
+]

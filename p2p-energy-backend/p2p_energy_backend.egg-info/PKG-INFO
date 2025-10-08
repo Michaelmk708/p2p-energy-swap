@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: p2p-energy-backend
+Version: 0.1.0
+Summary: Django 5 + DRF + SimpleJWT backend for P2P Energy Swap
+Requires-Python: >=3.10
+Requires-Dist: Django<6.0,>=5.0
+Requires-Dist: djangorestframework>=3.15
+Requires-Dist: djangorestframework-simplejwt>=5.3
+Requires-Dist: django-cors-headers>=4.4
+Requires-Dist: psycopg[binary]>=3.1
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: Pillow>=10.0

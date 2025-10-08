@@ -1,0 +1,10 @@
+{
+  "HH001_Nairobi_Central": {
+    "device_id": "HH001_Nairobi_Central",
+    "shared_secret": "supersecretdevicekey123"
+  },
+  "HH002_Nairobi_West": {
+    "device_id": "HH002_Nairobi_West",
+    "shared_secret": "anothersecretkey456"
+  }
+}

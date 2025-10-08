@@ -1,0 +1,116 @@
+# Logs and temporary files
+*.log
+*.tmp
+debug.log
+ai.log
+ai_service.log
+blockchain.log
+bridge.log
+django.log
+frontend.log
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Cache and temporary directories  
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary transaction and blockchain data
+/tmp/
+*.json.bak
+energy_trading.db
+energy_trading.log
+
+# Backup files
+*_old.md
+*.backup
+
+# Weird git artifacts
+", d1.user.email, "
+", d2.user.email)'"
+django
+os
+p2p

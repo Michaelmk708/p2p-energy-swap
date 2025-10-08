@@ -1,0 +1,21 @@
+{
+  "name": "p2p",
+  "version": "1.0.0",
+  "description": "A browser‑ready peer‑to‑peer energy trading demo that stitches together IoT, AI, blockchain, and mobile money—built for hackathons and live demos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michaelmk708/p2p-energy-swap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michaelmk708/p2p-energy-swap/issues"
+  },
+  "homepage": "https://github.com/Michaelmk708/p2p-energy-swap#readme",
+  "type": "module"
+}

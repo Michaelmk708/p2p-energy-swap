@@ -1,0 +1,14 @@
+{
+  "wifi_ssid": "Wokwi-GUEST",
+  "wifi_pass": "",
+  "host": "host.docker.internal",
+  "port": 9000,
+  "path": "/telemetry",
+  "device": "sim-1",
+  "pv_component": "pv_array",
+  "load_component": "house_load",
+  "max_watts": 5000,
+  "min_delta_w": 5,
+  "heartbeat_ms": 1500,
+  "debug_body_posts": 3
+}
