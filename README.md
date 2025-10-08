@@ -390,36 +390,7 @@ curl -s http://localhost:8000/api/marketplace/ | jq
 
 ---
 
-## 🤝 Contributing
 
-We welcome contributions! Here's how to get started:
-
-### 🐛 Bug Reports
-1. Check existing issues on GitHub
-2. Create detailed bug report with reproduction steps
-3. Include system information and error logs
-
-### 💡 Feature Requests  
-1. Discuss ideas in GitHub Discussions
-2. Create feature request with use cases
-3. Consider backward compatibility
-
-### 🔧 Code Contributions
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Make changes with tests
-4. Commit: `git commit -m 'Add amazing feature'`  
-5. Push: `git push origin feature/amazing-feature`
-6. Create Pull Request
-
-### Development Guidelines
-- Follow PEP 8 for Python code
-- Use TypeScript for all new React components
-- Write tests for new features
-- Update documentation for API changes
-- Run linters before committing
-
----
 
 ## 📜 License
 
@@ -427,59 +398,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌟 Acknowledgments
-
-- **OpenWeatherMap** for weather data APIs
-- **Safaricom** for M-Pesa integration support  
-- **Solana Foundation** for blockchain infrastructure
-- **Django/React Communities** for excellent documentation
-- **Open Source Contributors** for inspiration and code reviews
-
----
-
-## 📞 Support & Contact
-
-### Getting Help
-- **Documentation**: Check this README and inline code comments
-- **Issues**: Create GitHub issue for bugs and features
-- **Discussions**: Use GitHub Discussions for questions
-
-### Contact Information  
-- **Project Maintainer**: [@Michaelmk708](https://github.com/Michaelmk708)
-- **GitHub Repository**: [p2p-energy-swap](https://github.com/Michaelmk708/p2p-energy-swap)
-
----
-
-## 🎯 Roadmap
-
-### Version 2.0 (Coming Soon)
-- [ ] **Mobile App**: React Native iOS/Android apps
-- [ ] **Advanced AI**: Machine learning-based price optimization
-- [ ] **Multi-Token Support**: Different energy types (solar, wind, hydro)
-- [ ] **Community Features**: Energy cooperatives and group trading
-- [ ] **Carbon Credits**: Integration with carbon offset markets
-
-### Version 3.0 (Future)
-- [ ] **Grid Integration**: Direct utility company API connections  
-- [ ] **Smart Contracts**: Fully decentralized autonomous trading
-- [ ] **Global Marketplace**: Cross-border energy trading
-- [ ] **Regulatory Compliance**: Support for different energy regulations
-- [ ] **Enterprise Features**: White-label solutions for utilities
-
----
-
-<div align="center">
-
-### ⚡ Ready to revolutionize energy trading? 
-
-**[Get Started Now](#-quick-start-5-minutes-to-running)** • **[View Demo](http://localhost:8080)** • **[Join Community](https://github.com/Michaelmk708/p2p-energy-swap/discussions)**
-
----
 
 *Built with ❤️ for a sustainable energy future*
 
-[![GitHub Stars](https://img.shields.io/github/stars/Michaelmk708/p2p-energy-swap?style=social)](https://github.com/Michaelmk708/p2p-energy-swap/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/Michaelmk708/p2p-energy-swap?style=social)](https://github.com/Michaelmk708/p2p-energy-swap/network)
-[![GitHub Issues](https://img.shields.io/github/issues/Michaelmk708/p2p-energy-swap)](https://github.com/Michaelmk708/p2p-energy-swap/issues)
-
-</div>
