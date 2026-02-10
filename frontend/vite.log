@@ -1,0 +1,615 @@
+nohup: ignoring input
+Port 8081 is in use, trying another one...
+
+  VITE v5.4.20  ready in 1548 ms
+
+  ➜  Local:   h5:56:04 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:25:18 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:25:54 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:26:36 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:28:34 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:29:40 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:29:52 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:30:17 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:40:31 PM [vite] hmr update /src/pages/Transactions.tsx, /src/index.css
+6:40:49 PM [vite] hmr update /src/pages/Transactions.tsx, /src/index.css
+6:41:13 PM [vite] hmr update /src/pages/Transactions.tsx, /src/index.css
+-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:21:51 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:21:53 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:21:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:21:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:06 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=1.898160000000001&live_avg_consumption=1.6752000000000005&live_peak_production=2.63&live_total_surplus=5.66&live_efficiency=0.8&historical_data_points=25
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:11 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:29 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:31 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:33 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:36 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:37 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:41 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:41 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:45 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:46 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:49 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:51 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:51 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:53 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:22:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:06 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=1.898160000000001&live_avg_consumption=1.6752000000000005&live_peak_production=2.63&live_total_surplus=5.66&live_efficiency=0.8&historical_data_points=25
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:11 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:29 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:31 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:33 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:36 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:37 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:41 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:41 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:45 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:46 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:49 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:51 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:51 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:53 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:23:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:06 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=1.898160000000001&live_avg_consumption=1.6752000000000005&live_peak_production=2.63&live_total_surplus=5.66&live_efficiency=0.8&historical_data_points=25
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:11 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:29 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:31 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:33 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:36 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:37 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:41 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:41 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:45 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:46 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:49 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:51 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:51 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:53 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:24:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:06 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=1.898160000000001&live_avg_consumption=1.6752000000000005&live_peak_production=2.63&live_total_surplus=5.66&live_efficiency=0.8&historical_data_points=25
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:11 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:29 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:31 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:33 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:36 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:37 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:41 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:41 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:45 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:46 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:49 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:51 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:51 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:53 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:25:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:06 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=1.898160000000001&live_avg_consumption=1.6752000000000005&live_peak_production=2.63&live_total_surplus=5.66&live_efficiency=0.8&historical_data_points=25
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:11 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:26:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+5:27:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:29 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:31 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:33 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:36 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:37 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:41 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:41 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:45 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:46 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:49 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:51 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:51 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:53 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:27:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:01 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=2.0658000000000003&live_avg_consumption=1.5729999999999993&live_peak_production=2.63&live_total_surplus=9.930000000000003&live_efficiency=0.8&historical_data_points=20
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:56 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:28:57 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:01 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:01 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:05 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:06 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:09 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:11 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:11 PM [vite] http proxy error: /api/predict/?lat=-1.2841&lon=36.8155&live_avg_production=2.059578947368421&live_avg_consumption=1.56578947368421&live_peak_production=2.63&live_total_surplus=9.450000000000003&live_efficiency=0.8&historical_data_points=19
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:16 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:17 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:21 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:21 PM [vite] http proxy error: /api/predict/?system_kw=3&baseline_kwh=6&live_avg_production=0&live_avg_consumption=0&live_peak_production=0&live_total_surplus=0&live_efficiency=0&historical_data_points=0&city=Location+(-1.28,+36.82)
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:21 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:21 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:25 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:29:26 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+5:56:04 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:14:13 PM [vite] http proxy error: /api/iotcentral/latest/?device=sim-1&component=pv_array
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+6:14:15 PM [vite] http proxy error: /api/iotcentral/daily_exported/?device=sim-1&component=grid_export
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+6:14:15 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+6:14:35 PM [vite] http proxy error: /api/iotcentral/timeseries/?device=sim-1&components=pv_array,house_load&minutes=60
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+6:25:18 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:25:54 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:26:36 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:28:34 PM [vite] hmr update /src/pages/Dashboard.tsx, /src/index.css
+6:29:40 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:29:52 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:30:17 PM [vite] hmr update /src/pages/Marketplace.tsx, /src/index.css
+6:40:31 PM [vite] hmr update /src/pages/Transactions.tsx, /src/index.css
+6:40:49 PM [vite] hmr update /src/pages/Transactions.tsx, /src/index.css
+6:41:13 PM [vite] hmr update /src/pages/Transactions.tsx, /src/index.css

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "author": "Michael Kinuthia",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": -90,
+      "left": -120,
+      "attrs": { "label": "Solar Generation (kW)" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot2",
+      "top": -90,
+      "left": 150,
+      "attrs": { "label": "House Load (kW)" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 170,
+      "left": -60,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v20", "h40" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v-20", "h60" ] ],
+    [ "pot1:SIG", "esp:34", "green", [ "v10", "h120" ] ],
+    [ "pot2:GND", "esp:GND.2", "black", [ "v20", "h-40" ] ],
+    [ "pot2:VCC", "esp:3V3", "red", [ "v-20", "h-60" ] ],
+    [ "pot2:SIG", "esp:35", "green", [ "v10", "h-110" ] ],
+    [ "lcd1:GND", "esp:GND.3", "black", [ "h-20", "v-40" ] ],
+    [ "lcd1:VCC", "esp:VIN", "red", [ "h20", "v-40" ] ],
+    [ "lcd1:SDA", "esp:21", "blue", [ "h-40", "v-60" ] ],
+    [ "lcd1:SCL", "esp:22", "yellow", [ "h40", "v-60" ] ]
+  ],
+  "dependencies": {}
+}

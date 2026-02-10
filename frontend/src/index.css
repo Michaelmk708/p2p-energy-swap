@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* P2P Energy Swap Design System - Green Energy Theme */
+
+@layer base {
+  :root {
+    /* Eco-friendly backgrounds */
+    --background: 150 30% 98%;
+    --foreground: 150 30% 10%;
+
+    /* Card styling */
+    --card: 0 0% 100%;
+    --card-foreground: 150 30% 10%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 30% 10%;
+
+    /* Primary - Vibrant eco green */
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 142 76% 55%;
+
+    /* Secondary - Light green accent */
+    --secondary: 142 50% 92%;
+    --secondary-foreground: 142 76% 25%;
+
+    /* Muted */
+    --muted: 142 30% 95%;
+    --muted-foreground: 150 15% 45%;
+
+    /* Accent - Energy cyan */
+    --accent: 180 75% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 142 30% 88%;
+    --input: 142 30% 88%;
+    --ring: 142 76% 36%;
+
+    /* Border radius */
+    --radius: 0.75rem;
+
+    /* Energy gradients */
+    --gradient-energy: linear-gradient(135deg, hsl(142 76% 36%), hsl(180 75% 45%));
+    --gradient-solar: linear-gradient(180deg, hsl(142 76% 55%), hsl(142 76% 36%));
+    --gradient-eco: linear-gradient(135deg, hsl(142 50% 92%), hsl(180 75% 90%));
+    
+    /* Glow effects */
+    --glow-green: 0 8px 32px hsl(142 76% 36% / 0.25);
+    --glow-energy: 0 8px 32px hsl(180 75% 45% / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 150 20% 8%;
+    --foreground: 150 30% 95%;
+
+    --card: 150 20% 12%;
+    --card-foreground: 150 30% 95%;
+
+    --popover: 150 20% 12%;
+    --popover-foreground: 150 30% 95%;
+
+    --primary: 142 76% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 142 76% 60%;
+
+    --secondary: 150 20% 18%;
+    --secondary-foreground: 142 76% 55%;
+
+    --muted: 150 20% 18%;
+    --muted-foreground: 150 15% 60%;
+
+    --accent: 180 75% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 20% 20%;
+    --input: 150 20% 20%;
+    --ring: 142 76% 45%;
+
+    --gradient-energy: linear-gradient(135deg, hsl(142 76% 45%), hsl(180 75% 50%));
+    --gradient-solar: linear-gradient(180deg, hsl(142 76% 60%), hsl(142 76% 45%));
+    --gradient-eco: linear-gradient(135deg, hsl(150 20% 18%), hsl(180 75% 20%));
+    
+    --glow-green: 0 8px 32px hsl(142 76% 45% / 0.35);
+    --glow-energy: 0 8px 32px hsl(180 75% 50% / 0.35);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .energy-gradient {
+    background: var(--gradient-energy);
+  }
+
+  .solar-gradient {
+    background: var(--gradient-solar);
+  }
+
+  .eco-gradient {
+    background: var(--gradient-eco);
+  }
+
+  .glow-green {
+    box-shadow: var(--glow-green);
+  }
+
+  .glow-energy {
+    box-shadow: var(--glow-energy);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
