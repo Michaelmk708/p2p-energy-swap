@@ -7,14 +7,12 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
-  Serial.begin(115200); // Must match Python script speed
+  Serial.begin(115200);
   lcd.init();
   lcd.backlight();
   
   lcd.setCursor(0, 0);
   lcd.print("P2P System Ready");
-  lcd.setCursor(0, 1);
-  lcd.print("Serial Mode");
   delay(1000);
 }
 
@@ -30,8 +28,9 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print(net_kw > 0 ? "SELLING >>    " : "BUYING <<     ");
 
-  // 3. Send Pure JSON to Serial (No WiFi overhead)
+  // 3. Send PURE JSON to the Python Bridge (No extra text!)
   Serial.printf("{\"solar\": %.2f, \"load\": %.2f}\n", solar_kw, load_kw);
 
-  delay(200); // Fast updates (5 times per second)
+  // Fast updates for a responsive live demo
+  delay(1000); 
 }
